@@ -1,0 +1,22 @@
+ul,ol{ margin-bottom:0px; }
+ul{ list-style:none; }
+ul.form{ padding: 2px 0px; }
+ul.form li { padding: 2px 0px; }
+ul.form li div:first-child{ padding-top:4px; }
+
+select{margin:2px 0px; border: 1px solid lightgray;}
+select:hover{margin:2px 0px; border: 1px solid gray;}
+a{ color: #8585AD; font-weight:bold; font-family: verdana; text-decoration:  none}
+
+body{ background-color: #F0F5F2 }
+
+h1 a{ }
+h1 a:hover{  }
+
+ul.left_menu li{ text-align:center; }
+ul.left_menu li a{ color:black; font-size:1.2em; }
+
+input[type=button]{ font-weight: bold;}
+input[type=button]:hover{  }
+input[type=text]{ border: 1px solid lightgray; padding:4px; }
+input[type=text]:focus{ border: 1px solid gray; padding:4px; }
