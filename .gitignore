@@ -1,0 +1,5 @@
+# ignore
+.*pyc
+jinja2/
+wtforms/
+simplejson/
