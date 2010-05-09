@@ -1,0 +1,8 @@
+** INICIANDO **
+
+apps/handlers.py possui os handlers padrão da aplicação. 
+routing.py faz o mapeamento de urls para handlers.
+Aplicativos devem ser criados dentro de apps/
+O funcionamento da resolução de nomes para templates pode ser vista em 
+view.py
+

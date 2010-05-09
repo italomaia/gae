@@ -1,0 +1,10 @@
+<ul class="form clearfix">
+{% for field in form %}
+
+<li class="clearfix">
+    <div class="span-4">{{ field.label }}</div>
+    <div class="span-6">{{ field }}</div>
+</li>
+
+{% endfor %}
+</ul>

@@ -1,0 +1,4 @@
+jinja2.2.4.1 [bundled] >=
+wtforms0.6 [bundled] >=
+simplejson2.1.1 [bundled] >=
+python2.5 >=

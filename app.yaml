@@ -1,0 +1,39 @@
+application: gae
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /media/
+  static_dir: media_root
+
+- url: /images/
+  static_dir: media_root/images
+
+- url: /css/
+  static_dir: media_root/css
+
+- url: /js/
+  static_dir: media_root/js
+
+- url: .*
+  script: main.py
+
+skip_files: |
+ ^(.*/)?(
+ (app\.yaml)|
+ (app\.yml)|
+ (index\.yaml)|
+ (index\.yml)|
+ (#.*#)|
+ (.*~)|
+ (.*\.py[co])|
+ (.*/RCS/.*)|
+ (\..*)|
+ (dev/.*)|
+ (tests/.*)|
+ (docs/.*)|
+ (.*\.markdown)|
+ (license\.txt)|
+ (setup.py)
+ )$

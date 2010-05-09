@@ -1,0 +1,9 @@
+Instalação
+----------
+Faça uma cópia do *gae*. 
+Modifique o nome da pasta para o nome do seu projeto.
+Modifique o arquivo app.yaml de forma adequada.
+Adicione os módulos do jinja2, wtforms e simplejson à
+raiz do projeto.
+
+Prontinho! 

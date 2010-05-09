@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="{{ CHARSET }}"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml; charset={{ CHARSET }}" />
+    <meta name="author" content="{{ AUTHOR }}" />
+    <title>{{TITLE}}</title>
+    
+    <link rel="icon" type="image/x-icon"
+      href="{{MEDIA_URL}}favicon.ico" />
+
+    <!-- Framework CSS -->
+    <link media="screen, projection" rel="stylesheet"
+        href="{{MEDIA_URL}}css/screen.css" type="text/css"  />
+    <link media="print" rel="stylesheet"
+        href="{{MEDIA_URL}}css/print.css" type="text/css" />
+    <!--[if IE]>
+    <link media="screen, projection" rel="stylesheet"
+        href="{{MEDIA_URL}}css/ie.css" type="text/css" />
+    <![endif]-->
+    <link media="screen, projection" rel="stylesheet"
+        href="{{MEDIA_URL}}css/styles.css" type="text/css"  />
+
+    <script type="text/javascript" src="{{MEDIA_URL}}js/mootools.js"></script>
+
+</head>
+<body>
+
+<div class="container">
+{% block body %}
+<h1><a href="{{ROOT_URL}}">GAE - AppEngine Wrapper Framework</a></h1>
+<p>O GAE é um framework que tem como objetivo facilitar imensamente o
+desenvolvimento de aplicações web com o AppEngine através da utilização
+de bibliotecas já disponíveis na internet assim como receitas e boas
+práticas visíveis em outros projetos. Muito deste framework é baseado
+no bloog, um sistema de blog para o AppEngine.</p>
+
+{% block content %}
+{% endblock %}
+
+{% endblock %}
+
+</div>
+
+</body>
+</html>

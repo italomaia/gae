@@ -1,0 +1,41 @@
+> Author: Italo MC Maia
+> Plataforma alvo: multi-plataforma
+> Licença: CC
+> Data: 30/06/09
+
+**GAE** é um wrapper framework para o framework AppEngine, do Google.
+Seu objetivo é tornar mais fácil e produtivo o desenvolvimento
+de aplicações nesta plataforma juntando algumas bibliotecas e se
+utilizando de algumas "receitas" e códigos que automatizam
+tarefas e funcionalidades comuns à maioria dos aplicativos.
+
+http://bloog.billkatz.com/
+Muito do código do GAE foi baseado em um aplicativo muito bom
+para o appengine, chamado "bloog". Interessados em criar um blog
+na plataforma do google, sugiro que deem uma olhada no [bloog](http://bloog.billkatz.com/ "Bloog").
+
+
+Bibliotecas utilizadas:
+=======================
+Jinja2
+------
+poderosa engine de templates capaz de renderizar templates de forma
+rápida, eficiente e simples. Desenvolvedores Django se sentirão em casa!
+
+WTForms
+-------
+biblioteca para tratamento de formulários no melhor estilo
+django de ver a vida!
+
+SimpleJson
+----------
+como o AppEngine só funciona com python2.5, a biblioteca
+simplesjson se faz necessária.
+
+Requisitos para rodar o GAE:
+============================
+Ter o appengine instalado junto com python2.5
+
+Para entender como o desenvolver com o GAE, *leia o README.txt*
+
+*markdown*
