@@ -1,0 +1,6 @@
+GAE é um wrapper framework ou layer framework para o app engine. 
+A idéia por trás dele é tornar o desenvolvimento com o app engine
+mais fácil e rápido sem a necessidade de "acoplar" outros frameworks
+ao app engine. 
+
+* Boa parte do código deste projeto foi baseado no aplicativo "bloog"
