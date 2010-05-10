@@ -1,8 +1,12 @@
 ** INICIANDO **
 
-apps/handlers.py possui os handlers padrão da aplicação. 
-routing.py faz o mapeamento de urls para handlers.
-Aplicativos devem ser criados dentro de apps/
-O funcionamento da resolução de nomes para templates pode ser vista em 
-view.py
+Criar um aplicativo GAE, basicamente, significa criar os handlers que vão servir as requisições
+de usuário, criar os modelos que vão quardar as informações, criar formulários de validação
+e criar o mapeamento de urls no routing. Nesta tarefa, algumas das bibliotecas do aplicativo
+estão lá para lhe auxiliar. 
 
+* apps/restiful.Controller é uma classe restful padrão para seus handlers. Sua utilização
+pode ser conferida no default.py (exemplo). 
+* wtforms pode ser utilizado para criar formulários para modelos do app engine. 
+* no routing.py você faz o mapeamento de urls para handlers e com o módulo models,
+você consegue algumas facilidades na criação de seus modelos. 
